@@ -1,0 +1,195 @@
+body{
+  padding:0;
+  margin:0;
+  font-family:helvetica;
+  background: linear-gradient( 	#ffffff, rgb(223,227,238)80%);
+}
+
+#container{
+  margin:0;
+  padding:0;
+}
+
+/*==========header==========*/
+
+header{
+  margin:0;
+  height:80px;
+  background-color:rgb(59,90,154);
+  border-bottom:2px back solid;
+}
+
+#logo{
+  height:75px;
+  margin-left: 160px;
+  margin-top: 5px;
+  margin-right:410px;
+  float:left;
+}
+
+
+header table td.row1{
+  color:white;
+  font-size:13px;
+  padding-top:10px;
+}
+
+header table td.row2{
+  padding-right:10px;
+}
+
+.search{
+  border: 1px black solid;
+  height:18px;
+  width:150px;
+}
+
+#logIn{
+  color:white;
+  background-color:rgb(59,90,180) ;
+  border:1px darkblue solid;
+  height:22px;
+}
+
+#logIn:hover{
+  cursor: pointer;
+  background-color:rgb(59,90,154) ;
+}
+
+#account{
+  color:#8BC0C1;
+  font-size:13px;
+  text-decoration:none;
+}
+
+#account:hover{
+  text-decoration:underline;
+}
+
+
+/*============aside=============*/
+aside{
+  float:right;
+  margin-right:155px;
+}
+
+h1{
+  margin-bottom:0;
+  font-size:35px;
+  font-weight:bolder;
+}
+
+.para{
+  text-decoration:none;
+  color:#3B438C;
+}
+
+.para:hover{
+  text-decoration:underline;
+}
+
+.details{
+  height:30px;
+  padding:2px 5px 2px 9px;
+  border-radius:4px;
+  border:1px lightblue solid;
+  font-size:15px;
+  margin:5px 5px 5px 0;
+  font-weight:10px;
+}
+
+#diff_width{
+  width:415px;
+}
+
+#date{
+  width:50px;
+  height:30px;
+  margin:0;
+}
+
+#month{
+  width:80px;
+  height:30px;
+  margin:0;
+}
+
+#year{
+  width:70px;
+  height:30px;
+  margin:0;
+}
+
+#why{
+  color:#3B438C;
+  font-size:10px;
+}
+
+.sex{
+  font-size:18px;
+}
+
+#terms_and_cond{
+  color:gray;
+  font-size:11px;
+}
+
+#create_acc{
+  background-color:#4d994d;
+  height:40px;
+  width:190px;
+  color:white;
+  font-size: 18px;
+  font-weight: bold;
+  border:1px black solid;
+  border-radius:3px;
+}
+
+#create_acc:hover{
+  cursor:pointer;
+  background-color:#4d9920;
+}
+
+#celeb_page{
+  color:gray;
+  font-size: 14px;
+  font-weight: bold;
+  padding-bottom:20px;
+}
+
+/*===========article==========*/
+article{
+  float:left;
+  margin-left:180px;
+  margin-top:30px;
+}
+
+article p{
+  font-size: 20px;
+  font-weight: bold;
+  color:#21264F;
+}
+
+/*==============nav===========*/
+nav{
+  background-color:white;
+  clear:both;
+  font-size:13px;
+}
+
+nav p{
+  border-bottom:1px solid gray;
+  color:gray;
+  padding:10px 0 10px 0;
+}
+
+.nav_align{
+  width:900px;
+  margin:auto;
+}
+
+#copy{
+  color:gray;
+  font-size:10px;
+  padding-bottom:20px;
+}
